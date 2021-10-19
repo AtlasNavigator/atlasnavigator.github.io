@@ -13,6 +13,26 @@ h4{
 p{
 	color: white;
 }
-address{
-	color: white;
-}
+nav li {
+	list-style: none;
+	background-color: rgb(247, 0, 255);
+	color: aliceblue;
+	margin: 0;
+	flex: 1;
+	min-width: 200px;
+	text-align: center;
+	display: flex;
+  }
+  nav a, nav a:visited {
+	text-decoration: none;
+	width: 100%;
+	color: aliceblue;
+  }
+  nav a:hover {
+	color: black;
+	background-color: orange;
+  }
+  nav a:hover, nav a.active {
+	color: black;
+	background-color: orange;
+  }
